@@ -1,0 +1,152 @@
+
+/*=============================================
+				Generic CSS
+=============================================*/
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i');
+#home,body,html{
+	height: 100%;
+}
+p{
+	padding: 0;
+	margin: 0;
+}
+/*=============================================
+				HOME CSS
+=============================================*/
+#home-cover{
+	background-image: url("../img/bg-home2.jpg");
+	background-attachment: fixed;
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	height: 100%;
+	width: 100%;
+}
+#home-content-box{
+	display: table;
+	height: 100%;
+	width: 100%;
+	background-color: rgba(0,0,0,.3);
+}
+#home-content-box-inner{
+	display: table-cell;
+	vertical-align: middle;
+	padding-left:7%;
+}
+h3{
+	color: #fff;
+	position: relative;
+	text-transform: uppercase;
+	font-size: 34px;
+}
+h3 span{
+	font-weight: bold;
+    font-size: 26px;
+    letter-spacing: 1px;
+}
+#home-content-box h3::after{
+	content: "";
+	width:345px;
+	height: 2px;
+	background-color: #fff;
+	position: absolute;
+	bottom: -5px;
+	left: 0;
+}
+.btn-general{
+	text-transform: uppercase;
+	color: #fff;
+	background-color: #EE3323;
+	border-radius: 0;
+	margin: 25px 0 0;
+	padding: 6px 18px;
+	transition: .7s ease;
+}
+.btn-general:hover{
+	background:#9998A5;
+}
+/*=============================================
+				SERVICES CSS
+=============================================*/
+.content-box{
+	padding: 15px 0;
+	background-color: #F3F3F3;
+	
+}
+.services-wrapper img{
+	padding-right: 25px;
+	height: 115px;
+}
+.services-img{
+	float: left;
+}
+h2{
+	text-transform: uppercase;
+	color: #EE3323;
+	margin-bottom: 45px;
+}
+h1{
+	text-transform: capitalize;
+	font-size: 22px;
+}
+.content-title p{
+	color: #9998A5;
+	font-size: 18px;
+}
+p{
+	font-size: 16px;
+}
+
+/*=============================================
+				FOOTER CSS
+=============================================*/
+#footer-cover{
+	padding: 15px 0;
+	background-color: #202020;
+	color: #fff;
+}
+.footer-left p{
+	
+}
+/*=============================================
+				NAVIGATION CSS
+=============================================*/
+.navbar{
+	padding: 0px 0;
+	background-color: #fff;
+}
+.navbar-brand{
+	padding: 0;
+	height: auto;
+	margin-right: 60px;
+}
+#main-menu{
+	padding: 10px 0 0 20px;
+}
+#main-menu ul li a{
+	font-size: 18px;
+	margin-top: 15px;
+	font-weight: bold;
+}
+#main-menu ul li a:hover{
+	background: #EE3323;
+	color: #fff;
+}
+li.active a{
+	background: #EE3323 !important;
+	color: #fff !important;
+}
+ul.right-nav li{
+	display: block;
+	float: none;
+	padding-right: 20px;
+	padding-bottom: 5px;
+}
+ul.right-nav p{
+	text-transform: uppercase;
+	font-weight: bold;
+}
+ul.right-nav h2{
+	margin:0;
+	font-weight: 700
+}
